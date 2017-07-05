@@ -1,0 +1,19 @@
+{
+  "name": "semi-transparent-proxy",
+  "description": "A semi transparent HTTP/HTTPS proxy using DNS to capture requests using mitm techniques for HTTPS connections",
+  "version": "0.0.1",
+  "bin": {
+    "transparent-proxy": "./index.js"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "command-line-args": "^4.0.6",
+    "command-line-usage": "^4.0.0",
+    "dnsd": "^0.9.6",
+    "pem": "^1.9.7",
+    "request": "^2.81.0"
+  }
+}
