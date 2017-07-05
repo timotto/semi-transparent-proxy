@@ -26,11 +26,19 @@ const commandLineOptions = [
         typeLabel: '[underline]{hostname}'
     },
     {
-        name: 'bind',
-        alias: 'a',
+        name: 'ip',
+        alias: 'i',
         type: String,
         description: 'Externally reachable IP address',
         defaultValue: '127.0.0.1',
+        typeLabel: '[underline]{ip}'
+    },
+    {
+        name: 'bind',
+        alias: 'a',
+        type: String,
+        description: 'Bind address',
+        defaultValue: '0.0.0.0',
         typeLabel: '[underline]{ip}'
     },
     {
@@ -76,7 +84,7 @@ const commandLineOptions = [
         typeLabel: '[underline]{url}'
     },
     {name: 'verbose', alias: 'v', type: Boolean, defaultValue: false, description: 'Log request URLs'},
-    {name: 'insecure', alias: 'i', type: Boolean, defaultValue: false, description: 'Allow insecure HTTPS connections'},
+    {name: 'insecure', alias: 'x', type: Boolean, defaultValue: false, description: 'Allow insecure HTTPS connections'},
     {name: 'help', description: 'Print this usage guide', type: Boolean, defaultValue: false}
 ];
 

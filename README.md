@@ -26,17 +26,17 @@ higher layer where manipulation is still possible.
 
 ``` shell
   -c, --cacert file         CA certificate                          
-  -c, --cacert file         CA certificate                          
   -k, --cakey file          CA private key                          
   -n, --hostname hostname   Externally reachable hostname           
-  -a, --bind ip             Externally reachable IP address         
+  -i, --ip ip               Externally reachable IP address         
+  -a, --bind ip             Bind address                            
   -s, --https port          HTTPS server ports                      
   -h, --http port           HTTP server ports                       
   -o, --dns port            DNS server port                         
   -d, --honest domain       Domains which will not be proxied       
   -p, --proxy url           HTTP Proxy to use for outgoing requests 
   -v, --verbose             Log request URLs                        
-  -i, --insecure            Allow insecure HTTPS connections        
+  -x, --insecure            Allow insecure HTTPS connections        
   --help                    Print this usage guide                  
 ```
 
