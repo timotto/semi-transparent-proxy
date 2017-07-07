@@ -3,7 +3,7 @@
   "description": "A semi transparent HTTP/HTTPS proxy using DNS to capture requests using mitm techniques for HTTPS connections",
   "version": "0.0.1",
   "bin": {
-    "transparent-proxy": "./src/index.js"
+    "semi-transparent-proxy": "./src/index.js"
   },
   "scripts": {
     "start": "node src/index"
