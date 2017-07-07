@@ -106,8 +106,8 @@ const https = require('https');
 const request = require('request');
 const async = require('async');
 
-const IdentityManager = require('./lib/identity-manager');
-const DnsManager = require('./lib/dns-manager');
+const IdentityManager = require('./identity-manager');
+const DnsManager = require('./dns-manager');
 
 const options = commandLineArgs(commandLineOptions, {partial: true});
 
